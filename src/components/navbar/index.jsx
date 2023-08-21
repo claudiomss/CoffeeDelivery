@@ -21,9 +21,9 @@ export function Navbar({ area }) {
 
   return (
     <Container area={area}>
-      <Link to="../../">
+      {/* <Link to="../../"> */}
       <Logo />
-      </Link>
+      {/* </Link> */}
       <ContainerActions>
         <Location>
           <MapPin color="#8047F8" size={16} weight="fill" />
