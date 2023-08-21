@@ -35,7 +35,6 @@ export const ContainerCardPay = styled.div`
   grid-template-areas:
     'imagem title title'
     'imagem price price'
-    'imagem . . '
     'imagem count delete ';
 
   @media screen and (min-width: 768px) {
