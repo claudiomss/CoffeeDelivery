@@ -21,6 +21,7 @@ import {
   actionSubtractCoffee,
   actionDeleteCoffee,
   actionAddCoffee,
+  actionResetCoffee,
 } from '../../redux/carrinho/actions'
 import { Link } from 'react-router-dom'
 
@@ -93,7 +94,7 @@ export function CoffeCardPay({ area }) {
         </ContainerDetailTotal>
       </ContainerTotal>
       <Link to="./sucess">
-        <ContainerButtonConfirmar >
+        <ContainerButtonConfirmar onClick={actionResetCoffee()}>
             <ButtonConfirmar>Confirmar Pedido</ButtonConfirmar>
         </ContainerButtonConfirmar>
       </Link>
