@@ -1,0 +1,21 @@
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --Font-Header: 'Baloo 2', cursive;
+    --Font-Text: 'Roboto', sans-serif;
+
+    --Font-Height-1: 130%;
+    --Font-Height-2: 160%;
+
+    --Base-Title: #272221;
+    --Base-Subtitle: #403937;
+    --Base-Text: #574F4D;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
