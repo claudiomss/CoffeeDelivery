@@ -36,11 +36,10 @@ export function MethodPayment({ area }) {
         <SubTitle>
           O pagamento é feito na entrega. Escolha a forma que deseja pagar
         </SubTitle>
-        <ContainerPaymentCard>
+        <ContainerPaymentCard  onClick={handleMethodPayment}>
           <MethodPayCard
             className="ativo"
             method="Cartão de crédito"
-            onClick={handleMethodPayment}
           >
             <CreditCard color="#8047F8" size={16} value="fff" />
             Cartão de crédito
@@ -48,7 +47,6 @@ export function MethodPayment({ area }) {
           <MethodPayCard
             className="ativo"
             method="Cartão de débito"
-            onClick={handleMethodPayment}
           >
             <Bank color="#8047F8" size={16} />
             Cartão de débito
@@ -56,7 +54,6 @@ export function MethodPayment({ area }) {
           <MethodPayCard
             className="ativo"
             method="Dinheiro"
-            onClick={handleMethodPayment}
           >
             <Money color="#8047F8" size={16} />
             Dinheiro

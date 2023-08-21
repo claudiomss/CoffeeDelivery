@@ -2,7 +2,6 @@ import { styled } from 'styled-components'
 
 export const ContainerPayment = styled.div`
   box-sizing: border-box;
-  /* width: 64rem; */
   height: 30rem;
   padding: 2rem 3rem;
   background-color: #ededed;
@@ -39,18 +38,22 @@ export const ContainerPaymentCard = styled.div`
     justify-content: space-evenly;
   }
 `
+export const ContainerMethodPayCard = styled.button`
+border: none;
+background-color: #e6e5e5;
+border: 1px solid #e6e5e5;
+
+
+`
 
 export const MethodPayCard = styled.button`
   box-sizing: border-box;
   display: flex;
   align-items: center;
-  /* justify-content: space-evenly; */
-  /* width: 17.8rem; */
   height: 5.1rem;
   background-color: #e6e5e5;
   color: #574f4d;
   padding: 1.6rem;
-
   gap: 1.2rem;
   font-family: var(--Font-Text);
   font-size: 1.2rem;
@@ -68,3 +71,4 @@ export const MethodPayCard = styled.button`
     gap: 0.5rem;
   }
 `
+
