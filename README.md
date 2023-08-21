@@ -47,7 +47,10 @@ Após a conversa com **Stakeholder** vamos transformá-las em algo real.
      
 - **Laptop L - 1440 px**
 
-### 7. Outras Bibliotecas
+### 7. Design de Apoio
+- **Figma**
+
+### 8. Outras Bibliotecas
 - **Phosphor-React**
 - **React-Router-Dom**
 - **React-Hook-Form**
