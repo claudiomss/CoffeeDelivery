@@ -24,15 +24,17 @@ export function EndCard({ area }) {
   const [data, setData] = useState(null)
   const [zipCode, setZipCode] = useState(null)
 
-  const { register, handleSubmit } = useForm()
+  const { register,  handleSubmit } = useForm()
   const dispath = useDispatch()
 
   const onSub = (form) => {
     CepDataAsync()
-    if (data != null) {
-           dispath(actionAddAdress(data))
-    } else {
+
+    if(data == null){
       dispath(actionAddAdress(form))
+    }
+    else {
+      dispath(actionAddAdress(data))
     }
   }
 
@@ -61,6 +63,7 @@ export function EndCard({ area }) {
           <InputNum {...register('number')} placeholder="Número" />
           <InputComplemento
             {...register('complement')}
+           
             placeholder="Complemento"
           />
           {/* <span>Opcional</span> */}
