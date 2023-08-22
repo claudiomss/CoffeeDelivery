@@ -94,7 +94,7 @@ export function CoffeCardPay({ area }) {
         </ContainerDetailTotal>
       </ContainerTotal>
       <Link to="./sucess">
-        <ContainerButtonConfirmar onClick={actionResetCoffee()}>
+        <ContainerButtonConfirmar>
             <ButtonConfirmar>Confirmar Pedido</ButtonConfirmar>
         </ContainerButtonConfirmar>
       </Link>
