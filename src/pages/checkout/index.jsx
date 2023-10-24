@@ -6,6 +6,7 @@ import { TitlePay } from '../../components/checkoutTitlepay'
 import { ContainerCheckout } from './styles'
 
 export function Checkout() {
+  window.scrollTo(0, 0);
   return (
     <>
       <ContainerCheckout>
