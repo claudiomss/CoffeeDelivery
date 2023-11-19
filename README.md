@@ -30,8 +30,11 @@ O projeto **Coffee Delivery** simula um site com diversos cafés focado em *deli
 ## 2. :books: Funcionalidades
 
 :heavy_check_mark: **Adicionar produto**: o usuário pode adicionar o café no carrinho;
+
 :heavy_check_mark: **Excluir produto**: o usuário pode excluir o café do carrinho;
+
 :heavy_check_mark: **Incremento/Decremento**: o usuário pode aumentar/diminuir a quantidade do(s) café(s) do carrinho;
+
 :heavy_check_mark: **Dados Endereço**: o usuário ao digitar o CEP válido, os dados subsequentes são preenchidos.
 
 ---
