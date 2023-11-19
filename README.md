@@ -1,62 +1,85 @@
-# Bem vindo ao *Coffee Delivery*!
 
-### Visite o Projeto [Aqui](https://coffee-delivery-lilac-eight.vercel.app/).
+<a id="Coffee-Delivery"></a>
+# Coffee Delivery
 
-O projeto é um dos desafios da instituição de ensino **RockeatSeat**, para dar contexto e sentido a vamos fazer uma simulação. Em resumo se trata de um site de vendas de café voltado para o delivery.
+### Tópicos 
 
-### Introdução
+:small_blue_diamond: [Descrição do projeto](#1-Descrição-do-projeto)
+:small_blue_diamond: [Funcionalidades](#2-Funcionalidades)
+:small_blue_diamond: [Deploy da Aplicação](#3-Deploy-da-Aplicação)
+:small_blue_diamond: [Screenshots](#4-Screenshots)
+:small_blue_diamond: [Como rodar a aplicação](#5-Como-rodar-a-aplicação)
+:small_blue_diamond: [Dados](#6-Dados)
+:small_blue_diamond: [Linguagens, dependencias e libs utilizadas](#7-Linguagens,-dependencias-e-libs-utilizadas)
 
-Dona Maria tem uma lanchonete há muito tempo em sua cidade, tem certa variedade de produtos, porém ela tem notado um aumento nas vendas de **cafés atípicos**. 
+<a id="1-Descrição-do-projeto"></a>
+## 1. :memo: Descrição do projeto 
 
-Diante do fato, teve a brilhante ideia de entregá-los na casa de seus clientes, isso mesmo **delivery**. Contratou um "cara de TI" para ajudar nessa jornada!
+O projeto **Coffee Delivery** simula um site com diversos cafés focado em *delivery*. O usuário pode adicionar e excluir os cafés do carrinho e em seguida preencher os dados do endereço, utilizei a API [ViaCEP](https://viacep.com.br/) .
 
-Numa longa conversa as seguintes frases foram relevantes:
-- "Não entendo nada de tecnologia, não quero nenhum trabalho"
-- "Quero apenas entregar o café e pronto"
-- "Quero um site bem bonito"
+<a id="2-Funcionalidades"></a>
+## 2. :books: Funcionalidades
 
-## Síntese
+:heavy_check_mark: **Adicionar produto**: o usuário pode adicionar o café no carrinho;
+:heavy_check_mark: **Excluir produto**: o usuário pode excluir o café do carrinho;
+:heavy_check_mark: **Incremento/Decremento**: o usuário pode aumentar/diminuir a quantidade do(s) café(s) do carrinho;
+:heavy_check_mark: **Dados Endereço**: o usuário ao digitar o CEP válido, os dados subsequentes são preenchidos.
 
-Após a conversa com **Stakeholder** vamos transformá-las em algo real.
+<a id="3-Deploy-da-Aplicação"></a>
+## 3. :o:Deploy da Aplicação
 
-### 1. Listagem dos cafés: 
-> Como os produtos são fixos, foi criado um arquivo **data** com todas as informações relevantes.
- 
-### 2. Pesquisar CEP:
-> Foi integrado uma **API** para procurar os CEPs válidos.
- 
-### 3. Biblioteca de Desenvolvimento
-- **ReactJs**
-  
-### 4. Gereciamento de Estado
-- **Redux**
-- **useState**
+> Link do deploy da aplicação https://coffee-delivery-lilac-eight.vercel.app/
 
-### 5. Estilização
-- **Styled-Components**
-- **CSS**
+<a id="4-Screenshots"></a>
+## 4. :art:Screenshots
 
-### 6. Responsividade baseada em breakpoints padrões do navegador
-- **Mobile S - 320 px**
-     
-- **Mobile M - 375 px**
-     
-- **Mobile L - 425 px**
-     
-- **Tablet - 768 px**
-     
-- **Laptop - 1024 px**
-     
-- **Laptop L - 1440 px**
+![Home](https://github.com/claudiomss/CoffeeDelivery/blob/main/screenshots/tela%201.png?raw=true)
+![Home](https://github.com/claudiomss/CoffeeDelivery/blob/main/screenshots/tela%202.png?raw=true)
 
-### 7. Design de Apoio
-- **Figma**
+![Home](https://github.com/claudiomss/CoffeeDelivery/blob/main/screenshots/tela%203.png?raw=true)
+![Home](https://github.com/claudiomss/CoffeeDelivery/blob/main/screenshots/tela%204.png?raw=true)
 
-### 8. Outras Bibliotecas
-- **Phosphor-React**
-- **React-Router-Dom**
-- **React-Hook-Form**
+<a id="5-Como-rodar-a-aplicação"></a>
+## 5. :arrow_forward: Como rodar a aplicação 
 
-## Considerações Finais
-Além do aprendizado utilizando as ferramentas aqui listadas e **resolvendo bastantes bugs** fica a dica "**Gaste o tempo necessário** utilizando os príncipios do **Clean Code e Convenções** e outras ferramentas de padronização, usabilidade entre várias, **refatorar e bastante custoso e demorado"**.
+Clone o projeto em sua máquina: 
 
+```
+https://github.com/claudiomss/CoffeeDelivery.git
+```
+Instale as dependências:
+
+```
+npm i
+```
+Iniciar aplicação:
+
+```
+npm run dev
+```
+<a id="6-Dados"></a>
+## 6. :floppy_disk: Dados
+Foram utilizados dados estáticos, podem ser localizados em [src/data/products.js](https://github.com/claudiomss/CoffeeDelivery/blob/main/src/data/products.js)
+
+### Coffees: 
+
+|id|imagem|type|title|subTitle|price|
+| -------- |-------- |-------- |-------- |-------- |-------- |
+|1|coffee01|tradicional|Expresso Tradicional|O tradicional café feito com água quente e grãos moídos| 9.9
+
+<a id="7-Linguagens,-dependencias-e-libs-utilizadas"></a>
+## 7. :wrench:Linguagens, dependencias e libs utilizadas
+- HTML
+- CSS
+- Javascript
+- Vite
+- React
+-  Phosphor-react
+- React-hook-form
+- Redux
+- Redux-logger
+- Styled-components
+- [API ViaCEP](https://viacep.com.br/)
+
+
+[ Voltar para o topo ](#Coffee-Delivery)
