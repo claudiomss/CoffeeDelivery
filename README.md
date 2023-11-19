@@ -21,13 +21,13 @@
 ---
 
 <a id="1-Descrição-do-projeto"></a>
-## 1. :memo: Descrição do projeto 
+##  :memo: Descrição do projeto 
 
 O projeto **Coffee Delivery** simula um site com diversos cafés focado em *delivery*. O usuário pode adicionar e excluir os cafés do carrinho e em seguida preencher os dados do endereço, utilizei a API [ViaCEP](https://viacep.com.br/) .
 
 ---
 <a id="2-Funcionalidades"></a>
-## 2. :books: Funcionalidades
+##  :books: Funcionalidades
 
 :heavy_check_mark: **Adicionar produto**: o usuário pode adicionar o café no carrinho;
 
@@ -39,13 +39,13 @@ O projeto **Coffee Delivery** simula um site com diversos cafés focado em *deli
 
 ---
 <a id="3-Deploy-da-Aplicação"></a>
-## 3. :o:Deploy da Aplicação
+##  :o:Deploy da Aplicação
 
 > Link do deploy da aplicação https://coffee-delivery-lilac-eight.vercel.app/
 
 ---
 <a id="4-Screenshots"></a>
-## 4. :art:Screenshots
+##  :art:Screenshots
 
 ![Home](https://github.com/claudiomss/CoffeeDelivery/blob/main/screenshots/tela%201.png?raw=true)
 ![Home](https://github.com/claudiomss/CoffeeDelivery/blob/main/screenshots/tela%202.png?raw=true)
@@ -55,7 +55,7 @@ O projeto **Coffee Delivery** simula um site com diversos cafés focado em *deli
 
 ---
 <a id="5-Como-rodar-a-aplicação"></a>
-## 5. :arrow_forward: Como rodar a aplicação 
+##  :arrow_forward: Como rodar a aplicação 
 
 Clone o projeto em sua máquina: 
 
@@ -75,7 +75,7 @@ npm run dev
 
 ---
 <a id="6-Dados"></a>
-## 6. :floppy_disk: Dados
+##  :floppy_disk: Dados
 Foram utilizados dados estáticos, podem ser localizados em [src/data/products.js](https://github.com/claudiomss/CoffeeDelivery/blob/main/src/data/products.js)
 
 ### Coffees: 
@@ -86,7 +86,7 @@ Foram utilizados dados estáticos, podem ser localizados em [src/data/products.j
 
 ---
 <a id="7-Linguagens,-dependencias-e-libs-utilizadas"></a>
-## 7. :wrench:Linguagens, dependencias e libs utilizadas
+##  :wrench:Linguagens, dependencias e libs utilizadas
 - HTML
 - CSS
 - Javascript
