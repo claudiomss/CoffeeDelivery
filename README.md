@@ -60,7 +60,7 @@ O projeto **Coffee Delivery** simula um site com diversos cafés focado em *deli
 Clone o projeto em sua máquina: 
 
 ```
-https://github.com/claudiomss/CoffeeDelivery.git
+git clone https://github.com/claudiomss/CoffeeDelivery.git
 ```
 Instale as dependências:
 
