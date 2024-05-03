@@ -1,0 +1,27 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Café Delivery",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Café Delivery",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/favicon.ico",
+      "type": "image/x-icon"
+    }
+  ],
+  "id": "cf222",
+  "description": "Pedidos de cafés online",
+  "lang": "pt",
+  "categories": [
+    "food"
+  ]
+}
