@@ -23,7 +23,7 @@
 <a id="1-Descrição-do-projeto"></a>
 ##  :memo: Descrição do projeto 
 
-O projeto **Coffee Delivery** simula um site com diversos cafés focado em *delivery*. O usuário pode adicionar e excluir os cafés do carrinho e em seguida preencher os dados do endereço, utilizei a API [ViaCEP](https://viacep.com.br/) .
+O projeto Coffee Delivery simula um site de delivery de cafés, onde o usuário pode explorar uma variedade de opções e gerenciar seu pedido. Com foco na experiência de compra, o usuário consegue adicionar e remover cafés do carrinho, ajustar a quantidade dos itens e preencher automaticamente os dados de entrega ao informar o CEP, utilizando a API [ViaCEP](https://viacep.com.br/) para facilitar o preenchimento de endereço.
 
 ---
 <a id="2-Funcionalidades"></a>
